@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="ques1">What is The Capital of INDIA ?</string>
+    <string name="ques2">What is the economy capital of India?</string>
+    <string name="ques3">What is the value of n if n/50 gives 40 ?</string>
+    <string name="multiple_choice">MULTIPLE CHOICE</string>
+    <string name="single_choice">SINGLE CHOICE</string>
+</resources>

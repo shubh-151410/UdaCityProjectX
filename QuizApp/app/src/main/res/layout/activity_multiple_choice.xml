@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultipleChoice">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/check_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/ques1"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="anschkbox"
+            android:text="Delhi" />
+
+        <CheckBox
+            android:id="@+id/checkbox_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="anschkbox"
+            android:text="NewDelhi" />
+
+        <CheckBox
+            android:id="@+id/checkbox_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="anschkbox"
+            android:text="Mumbai" />
+
+        <CheckBox
+            android:id="@+id/checkbox_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="anschkbox"
+            android:text="Kolkata" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="press"
+            android:onClick="checkanser"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:text="@string/ques2"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showans"
+            android:text="Delhi" />
+
+        <CheckBox
+            android:id="@+id/checkbox_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showans"
+            android:text="NewDelhi" />
+
+        <CheckBox
+            android:id="@+id/checkbox_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showans"
+            android:text="Mumbai" />
+
+        <CheckBox
+            android:id="@+id/checkbox_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="showans"
+            android:text="Bombay" />
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="checkans"
+            android:text="press" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="fill in the blanks"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ques3"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/ans_edit_text"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHECK"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:onClick="edtans"/>
+    </LinearLayout>
+</ScrollView>

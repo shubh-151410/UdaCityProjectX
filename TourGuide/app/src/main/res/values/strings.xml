@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">TourGuide</string>
+    <string name="state_name">CITY</string>
+    <string name="food">FOOD</string>
+    <string name="history_name">HISTORICAL</string>
+    <string name="island">ISLAND</string>
+    <string name="gateway_of_india">GateWay Of India</string>
+    <string name="goldenoftemple">GoldenTemple</string>
+    <string name="Lotus_Temple">Lotus Temple</string>
+<string name="hawa_mahal">Hawa Mahal</string>
+    <string name="Vishwanath_Temple">Vishwanath Temple</string>
+
+    <string name="TajMahal">TajMahal</string>
+
+    <string name="QutubMina">QutubMina</string>
+    <string name="BuddhistCircuit">BuddhistCircuit</string>
+
+    <string name="Flora_Mountanin">Flora Mountanin</string>
+
+    <string name="Mumbai">Mumbai</string>
+
+    <string name="Amritsar">Amritsar</string>
+
+    <string name="Jaipur">Jaipur</string>
+
+    <string name="Delhi">Delhi</string>
+
+    <string name="Varanasi">Varanasi</string>
+
+    <string name="Agra">Agra</string>
+    <string name="Kerela">Kerela</string>
+    <string name="Baada_Pao">Baada Pao</string>
+    <string name="mumbai">Mumbai</string>
+    <string name="Batti_Chokha">Batti_Chokha</string>
+    <string name="Briyani">Briyani</string>
+    <string name="Uttar_Pradesh">Uttar_Pradesh</string>
+    <string name="Hyderabad">Hyderabad</string>
+    <string name="Choola_Bhatura">Choola Bhatura</string>
+    <string name="Punjab">Punjab</string>
+    <string name="Paan">Paan</string>
+    <string name="TikkiChola">TikkiChola</string>
+    <string name="TokriChat">TokriChat</string>
+    <string name="Paav_Bhaji">Paav Bhaji</string>
+    <string name="lko">Lucknow</string>
+    <string name="EasterIsland">EasterIsland</string>
+    <string name="Chile">Chile</string>
+    <string name="Boracay">Boracay</string>
+    <string name="Philipine">Philipine</string>
+    <string name="Bora">Bora</string>
+    <string name="Romanic">Romanic</string>
+    <string name="Columbia">Columbia</string>
+    <string name="GreekIslands">GreekIslands</string>
+    <string name="SouthAmerica">SouthAmerica</string>
+    <string name="Mynkonos">Mynkonos</string>
+    <string name="Naheel_Tower">Naheel_Tower</string>
+    <string name="Maldivies_Islands">Maldivies Islands</string>
+    <string name="Maldivies">Maldivies</string>
+    <string name="Lefkas">Lefkas</string>
+    <string name="greece">greece</string>
+    <string name="boracay_philippine">Boracay_Philipine</string>
+    <string name="Bangkok">Bangkok</string>
+    <string name="Thailand">Thailand</string>
+    <string name="London">London</string>
+    <string name="England">England</string>
+    <string name="Chicago">Chicago</string>
+    <string name="Los_Angeles">Los Angeles</string>
+    <string name="U_S_A">U.S.A</string>
+    <string name="Buenos">Buenos</string>
+    <string name="Berlin">Berlin</string>
+    <string name="BurjKhalifa">BurjKhalifa</string>
+    <string name="Argentina">Argentina</string>
+    <string name="Germanu">Germanu</string>
+    <string name="dubai">Dubai</string>
+    <string name="jalebi">Jalebi</string>
+
+
+
+</resources>
