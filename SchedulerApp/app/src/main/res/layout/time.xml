@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="437dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="42dp"
+        android:gravity="center_horizontal"
+        android:text="Enter Total Time that you want to travel today."
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="14dp"
+        android:text="From:-"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="117dp"
+        android:text="Hours:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginStart="19dp"
+        android:layout_toEndOf="@+id/editText2"
+        android:text="Minutes:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="45dp"
+        android:text="To:-"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_below="@+id/textView6"
+        android:layout_marginTop="11dp"
+        android:text="Hours:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/textView5"
+        android:text="Minutes:"
+        android:textSize="15sp" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/textView3"
+        android:ems="10"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/editText5"
+        android:ems="10"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/editText2"
+        android:ems="10"
+        android:inputType="time" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="90dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText4"
+        android:layout_alignBottom="@+id/editText4"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/textView8"
+        android:ems="10"
+        android:inputType="time" />
+
+
+
+
+</RelativeLayout>

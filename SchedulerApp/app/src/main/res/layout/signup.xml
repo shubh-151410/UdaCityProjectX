@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignUp">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:text="Register" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:text="Create Your account"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView3"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="47dp"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:text="Name:" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="19dp"
+        android:text="User Name:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/editText4"
+        android:layout_marginTop="19dp"
+        android:text="Email:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText6"
+        android:layout_alignBottom="@+id/editText6"
+        android:layout_alignStart="@+id/textView6"
+        android:text="PhoneNo.:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/editText8"
+        android:layout_alignBottom="@+id/editText8"
+        android:layout_alignStart="@+id/textView7"
+        android:text="Password:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_marginTop="24dp"
+        android:layout_toStartOf="@+id/button"
+        android:text="Confirm Password:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView5"
+        android:layout_alignStart="@+id/editText8"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/editText3"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/editText4"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView9"
+        android:layout_alignBottom="@+id/textView9"
+        android:layout_toEndOf="@+id/textView9"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editText7"
+        android:layout_below="@+id/editText6"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtWarning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button3"
+        android:layout_marginBottom="18dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:gravity="center_horizontal"
+        android:text="Password Does not match"
+        android:textColor="#FF0000"
+        android:visibility="invisible" />
+</RelativeLayout>
